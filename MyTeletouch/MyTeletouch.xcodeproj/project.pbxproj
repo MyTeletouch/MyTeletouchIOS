@@ -1,0 +1,503 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B928C3AF1B4BAA39005A5C5B /* Queue.swift in Sources */ = {isa = PBXBuildFile; fileRef = B928C3AE1B4BAA39005A5C5B /* Queue.swift */; };
+		B928C3B11B4BFF6F005A5C5B /* StringBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = B928C3B01B4BFF6F005A5C5B /* StringBuilder.swift */; };
+		B94073F61B159B5E00A8B054 /* KeyboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B94073F51B159B5E00A8B054 /* KeyboardViewController.swift */; };
+		B94073F81B159B8F00A8B054 /* JoystickViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B94073F71B159B8F00A8B054 /* JoystickViewController.swift */; };
+		B94073FA1B15A12600A8B054 /* MainController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B94073F91B15A12600A8B054 /* MainController.swift */; };
+		B94073FE1B1C37A500A8B054 /* RingControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = B94073FD1B1C37A400A8B054 /* RingControl.swift */; };
+		B94074001B1C381C00A8B054 /* RingButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B94073FF1B1C381C00A8B054 /* RingButton.swift */; };
+		B94B86DB1B53EAA600B39190 /* AnsiiToScanCodeConverter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B94B86DA1B53EAA600B39190 /* AnsiiToScanCodeConverter.swift */; };
+		B97DEE081B14B0CF00D9CACA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B97DEE071B14B0CF00D9CACA /* AppDelegate.swift */; };
+		B97DEE0A1B14B0CF00D9CACA /* ConnectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B97DEE091B14B0CF00D9CACA /* ConnectViewController.swift */; };
+		B97DEE0D1B14B0CF00D9CACA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B97DEE0B1B14B0CF00D9CACA /* Main.storyboard */; };
+		B97DEE0F1B14B0CF00D9CACA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B97DEE0E1B14B0CF00D9CACA /* Images.xcassets */; };
+		B97DEE121B14B0CF00D9CACA /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B97DEE101B14B0CF00D9CACA /* LaunchScreen.xib */; };
+		B97DEE1E1B14B0CF00D9CACA /* MyTeletouchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B97DEE1D1B14B0CF00D9CACA /* MyTeletouchTests.swift */; };
+		B97DEE281B14BF8200D9CACA /* MouseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B97DEE271B14BF8200D9CACA /* MouseViewController.swift */; };
+		B9A8B16B1B37EADF00F284EB /* RectButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9A8B16A1B37EADF00F284EB /* RectButton.swift */; };
+		B9D876CE1B5FF467004FB0A9 /* CustomKeyboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9D876CD1B5FF467004FB0A9 /* CustomKeyboardViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B97DEE181B14B0CF00D9CACA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B97DEDFA1B14B0CF00D9CACA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B97DEE011B14B0CF00D9CACA;
+			remoteInfo = MyTeletouch;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B928C3AE1B4BAA39005A5C5B /* Queue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Queue.swift; sourceTree = "<group>"; };
+		B928C3B01B4BFF6F005A5C5B /* StringBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringBuilder.swift; sourceTree = "<group>"; };
+		B94073F51B159B5E00A8B054 /* KeyboardViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyboardViewController.swift; sourceTree = "<group>"; };
+		B94073F71B159B8F00A8B054 /* JoystickViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JoystickViewController.swift; sourceTree = "<group>"; };
+		B94073F91B15A12600A8B054 /* MainController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainController.swift; sourceTree = "<group>"; };
+		B94073FD1B1C37A400A8B054 /* RingControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RingControl.swift; sourceTree = "<group>"; };
+		B94073FF1B1C381C00A8B054 /* RingButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RingButton.swift; sourceTree = "<group>"; };
+		B94B86DA1B53EAA600B39190 /* AnsiiToScanCodeConverter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnsiiToScanCodeConverter.swift; sourceTree = "<group>"; };
+		B97DEE021B14B0CF00D9CACA /* MyTeletouch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyTeletouch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B97DEE061B14B0CF00D9CACA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B97DEE071B14B0CF00D9CACA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B97DEE091B14B0CF00D9CACA /* ConnectViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectViewController.swift; sourceTree = "<group>"; };
+		B97DEE0C1B14B0CF00D9CACA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B97DEE0E1B14B0CF00D9CACA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		B97DEE111B14B0CF00D9CACA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		B97DEE171B14B0CF00D9CACA /* MyTeletouchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyTeletouchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B97DEE1C1B14B0CF00D9CACA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B97DEE1D1B14B0CF00D9CACA /* MyTeletouchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTeletouchTests.swift; sourceTree = "<group>"; };
+		B97DEE271B14BF8200D9CACA /* MouseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MouseViewController.swift; sourceTree = "<group>"; };
+		B9A8B16A1B37EADF00F284EB /* RectButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RectButton.swift; sourceTree = "<group>"; };
+		B9D876CD1B5FF467004FB0A9 /* CustomKeyboardViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomKeyboardViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B97DEDFF1B14B0CF00D9CACA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B97DEE141B14B0CF00D9CACA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B928C3AD1B4BAA09005A5C5B /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				B928C3AE1B4BAA39005A5C5B /* Queue.swift */,
+				B928C3B01B4BFF6F005A5C5B /* StringBuilder.swift */,
+				B94B86DA1B53EAA600B39190 /* AnsiiToScanCodeConverter.swift */,
+			);
+			name = Common;
+			sourceTree = "<group>";
+		};
+		B94073FB1B1C35CF00A8B054 /* Controls */ = {
+			isa = PBXGroup;
+			children = (
+				B94073FD1B1C37A400A8B054 /* RingControl.swift */,
+				B94073FF1B1C381C00A8B054 /* RingButton.swift */,
+				B9A8B16A1B37EADF00F284EB /* RectButton.swift */,
+			);
+			name = Controls;
+			sourceTree = "<group>";
+		};
+		B94073FC1B1C35FC00A8B054 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				B94073F91B15A12600A8B054 /* MainController.swift */,
+				B97DEE091B14B0CF00D9CACA /* ConnectViewController.swift */,
+				B97DEE271B14BF8200D9CACA /* MouseViewController.swift */,
+				B94073F51B159B5E00A8B054 /* KeyboardViewController.swift */,
+				B94073F71B159B8F00A8B054 /* JoystickViewController.swift */,
+				B9D876CD1B5FF467004FB0A9 /* CustomKeyboardViewController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		B97DEDF91B14B0CF00D9CACA = {
+			isa = PBXGroup;
+			children = (
+				B97DEE041B14B0CF00D9CACA /* MyTeletouch */,
+				B97DEE1A1B14B0CF00D9CACA /* MyTeletouchTests */,
+				B97DEE031B14B0CF00D9CACA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B97DEE031B14B0CF00D9CACA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B97DEE021B14B0CF00D9CACA /* MyTeletouch.app */,
+				B97DEE171B14B0CF00D9CACA /* MyTeletouchTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B97DEE041B14B0CF00D9CACA /* MyTeletouch */ = {
+			isa = PBXGroup;
+			children = (
+				B928C3AD1B4BAA09005A5C5B /* Common */,
+				B94073FC1B1C35FC00A8B054 /* Controllers */,
+				B94073FB1B1C35CF00A8B054 /* Controls */,
+				B97DEE071B14B0CF00D9CACA /* AppDelegate.swift */,
+				B97DEE0B1B14B0CF00D9CACA /* Main.storyboard */,
+				B97DEE0E1B14B0CF00D9CACA /* Images.xcassets */,
+				B97DEE101B14B0CF00D9CACA /* LaunchScreen.xib */,
+				B97DEE051B14B0CF00D9CACA /* Supporting Files */,
+			);
+			path = MyTeletouch;
+			sourceTree = "<group>";
+		};
+		B97DEE051B14B0CF00D9CACA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B97DEE061B14B0CF00D9CACA /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B97DEE1A1B14B0CF00D9CACA /* MyTeletouchTests */ = {
+			isa = PBXGroup;
+			children = (
+				B97DEE1D1B14B0CF00D9CACA /* MyTeletouchTests.swift */,
+				B97DEE1B1B14B0CF00D9CACA /* Supporting Files */,
+			);
+			path = MyTeletouchTests;
+			sourceTree = "<group>";
+		};
+		B97DEE1B1B14B0CF00D9CACA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B97DEE1C1B14B0CF00D9CACA /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B97DEE011B14B0CF00D9CACA /* MyTeletouch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B97DEE211B14B0CF00D9CACA /* Build configuration list for PBXNativeTarget "MyTeletouch" */;
+			buildPhases = (
+				B97DEDFE1B14B0CF00D9CACA /* Sources */,
+				B97DEDFF1B14B0CF00D9CACA /* Frameworks */,
+				B97DEE001B14B0CF00D9CACA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyTeletouch;
+			productName = MyTeletouch;
+			productReference = B97DEE021B14B0CF00D9CACA /* MyTeletouch.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B97DEE161B14B0CF00D9CACA /* MyTeletouchTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B97DEE241B14B0CF00D9CACA /* Build configuration list for PBXNativeTarget "MyTeletouchTests" */;
+			buildPhases = (
+				B97DEE131B14B0CF00D9CACA /* Sources */,
+				B97DEE141B14B0CF00D9CACA /* Frameworks */,
+				B97DEE151B14B0CF00D9CACA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B97DEE191B14B0CF00D9CACA /* PBXTargetDependency */,
+			);
+			name = MyTeletouchTests;
+			productName = MyTeletouchTests;
+			productReference = B97DEE171B14B0CF00D9CACA /* MyTeletouchTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B97DEDFA1B14B0CF00D9CACA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = MyTeletouch;
+				TargetAttributes = {
+					B97DEE011B14B0CF00D9CACA = {
+						CreatedOnToolsVersion = 6.3.2;
+						DevelopmentTeam = 566J45358N;
+					};
+					B97DEE161B14B0CF00D9CACA = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = B97DEE011B14B0CF00D9CACA;
+					};
+				};
+			};
+			buildConfigurationList = B97DEDFD1B14B0CF00D9CACA /* Build configuration list for PBXProject "MyTeletouch" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B97DEDF91B14B0CF00D9CACA;
+			productRefGroup = B97DEE031B14B0CF00D9CACA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B97DEE011B14B0CF00D9CACA /* MyTeletouch */,
+				B97DEE161B14B0CF00D9CACA /* MyTeletouchTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B97DEE001B14B0CF00D9CACA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B97DEE0D1B14B0CF00D9CACA /* Main.storyboard in Resources */,
+				B97DEE121B14B0CF00D9CACA /* LaunchScreen.xib in Resources */,
+				B97DEE0F1B14B0CF00D9CACA /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B97DEE151B14B0CF00D9CACA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B97DEDFE1B14B0CF00D9CACA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B97DEE0A1B14B0CF00D9CACA /* ConnectViewController.swift in Sources */,
+				B97DEE281B14BF8200D9CACA /* MouseViewController.swift in Sources */,
+				B97DEE081B14B0CF00D9CACA /* AppDelegate.swift in Sources */,
+				B94073FE1B1C37A500A8B054 /* RingControl.swift in Sources */,
+				B94B86DB1B53EAA600B39190 /* AnsiiToScanCodeConverter.swift in Sources */,
+				B94073F61B159B5E00A8B054 /* KeyboardViewController.swift in Sources */,
+				B928C3B11B4BFF6F005A5C5B /* StringBuilder.swift in Sources */,
+				B928C3AF1B4BAA39005A5C5B /* Queue.swift in Sources */,
+				B9D876CE1B5FF467004FB0A9 /* CustomKeyboardViewController.swift in Sources */,
+				B94073FA1B15A12600A8B054 /* MainController.swift in Sources */,
+				B94073F81B159B8F00A8B054 /* JoystickViewController.swift in Sources */,
+				B9A8B16B1B37EADF00F284EB /* RectButton.swift in Sources */,
+				B94074001B1C381C00A8B054 /* RingButton.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B97DEE131B14B0CF00D9CACA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B97DEE1E1B14B0CF00D9CACA /* MyTeletouchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B97DEE191B14B0CF00D9CACA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B97DEE011B14B0CF00D9CACA /* MyTeletouch */;
+			targetProxy = B97DEE181B14B0CF00D9CACA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B97DEE0B1B14B0CF00D9CACA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B97DEE0C1B14B0CF00D9CACA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B97DEE101B14B0CF00D9CACA /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B97DEE111B14B0CF00D9CACA /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B97DEE1F1B14B0CF00D9CACA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B97DEE201B14B0CF00D9CACA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B97DEE221B14B0CF00D9CACA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = MyTeletouch/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		B97DEE231B14B0CF00D9CACA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = MyTeletouch/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		B97DEE251B14B0CF00D9CACA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MyTeletouchTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyTeletouch.app/MyTeletouch";
+			};
+			name = Debug;
+		};
+		B97DEE261B14B0CF00D9CACA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MyTeletouchTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyTeletouch.app/MyTeletouch";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B97DEDFD1B14B0CF00D9CACA /* Build configuration list for PBXProject "MyTeletouch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B97DEE1F1B14B0CF00D9CACA /* Debug */,
+				B97DEE201B14B0CF00D9CACA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B97DEE211B14B0CF00D9CACA /* Build configuration list for PBXNativeTarget "MyTeletouch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B97DEE221B14B0CF00D9CACA /* Debug */,
+				B97DEE231B14B0CF00D9CACA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B97DEE241B14B0CF00D9CACA /* Build configuration list for PBXNativeTarget "MyTeletouchTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B97DEE251B14B0CF00D9CACA /* Debug */,
+				B97DEE261B14B0CF00D9CACA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B97DEDFA1B14B0CF00D9CACA /* Project object */;
+}
